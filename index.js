@@ -2,7 +2,7 @@ const exoress=require('express');
 const conectarDB =require('./config/db');
 var cors = require('cors')
 
-const port= process.env.port||4000;
+const port= process.env.PORT||4000;
 
 
 const app=exoress();
