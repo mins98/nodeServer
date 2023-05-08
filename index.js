@@ -6,7 +6,7 @@ const port= process.env.port||4000;
 
 
 const app=exoress();
-app.use(cors()) // Use this after the variable declaration
+//app.use(cors()) // Use this after the variable declaration
 //conectar
 conectarDB();
 
